@@ -1,0 +1,711 @@
+0000.000 (0) Opened log file at time: Sun, 12 May 2024 23:05:45 +0000 on https://gardnerconference.exoticaitsolutions.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.1.27 (litespeed, Linux in-mum-web678.main-hosting.eu 4.18.0-513.9.1.lve.el7h.x86_64 #1 SMP Mon Dec 4 13:57:13 UTC 2023 x86_64) MySQL: 10.11.7-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 4.3M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 2530595.2 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.004 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.006 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1715468829, seconds_ago=86316)
+0000.007 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-05-12 23:05:45
+0000.008 (0) Semaphore (fd, wp_options) reset to 1
+0000.008 (0) Set semaphore last lock (fd) time to 2024-05-12 23:05:45
+0000.009 (0) Semaphore lock (fd) complete
+0000.011 (0) Backup run: resumption=0, nonce=c9127e291400, file_nonce=c9127e291400 begun at=1715555145 (0s ago), job type=backup
+0000.012 (0) Scheduling a resumption (1) after 300 seconds (1715555445) in case this run gets aborted
+0000.023 (0) Checking if we have a zip executable available
+0000.024 (0) Testing: /usr/bin/zip
+0000.032 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.033 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.033 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.034 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.034 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.041 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.042 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.051 (0) Working binary zip found: /usr/bin/zip
+0000.053 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.054 (0) Creation of backups of directories: beginning
+0000.056 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.544 (0) Total entities for the zip file: 297 directories, 2575 files (0 skipped as non-modified), 49.6 MB
+0000.556 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.569 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.581 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.590 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.601 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.613 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.622 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.632 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.642 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.652 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.653 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.5 MB, 2575 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0009.832 (0) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: size is now: 5.70 MB
+0009.846 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1100 files added (on-disk size: 5864 KB)
+0009.859 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1200 files added (on-disk size: 5864 KB)
+0009.871 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1300 files added (on-disk size: 5864 KB)
+0009.882 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1400 files added (on-disk size: 5864 KB)
+0009.894 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1500 files added (on-disk size: 5864 KB)
+0009.907 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1600 files added (on-disk size: 5864 KB)
+0009.919 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1700 files added (on-disk size: 5864 KB)
+0009.930 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1800 files added (on-disk size: 5864 KB)
+0009.941 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 1900 files added (on-disk size: 5864 KB)
+0009.952 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 2000 files added (on-disk size: 5864 KB)
+0009.953 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.8 MB, 2575 files batched, 1001 (2002) added so far); re-opening (prior size: 5864 KB)
+0020.097 (0) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: size is now: 12.40 MB
+0020.110 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 2100 files added (on-disk size: 12653.5 KB)
+0020.122 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 2200 files added (on-disk size: 12653.5 KB)
+0020.132 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 2300 files added (on-disk size: 12653.5 KB)
+0020.143 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 2400 files added (on-disk size: 12653.5 KB)
+0020.154 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: 2500 files added (on-disk size: 12653.5 KB)
+0026.952 (0) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.tmp: size is now: 15.30 MB
+0026.990 (0) Creating zip file manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.list-temp.tmp)
+0027.007 (0) Successfully created zip file manifest (size: 196132)
+0027.245 (0) Created plugins zip (0) - 15676.6 KB in 27.2 s (576.6 KB/s) (sha1: 8a2070872c5f3bfce0c32c9293efa3a48a7358b0, sha256: 275e2f0294db9f600384b201e9ff80b5e9a263b324301182c53320fab2d62800)
+0027.250 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0027.251 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c7aa0e808f50d0e34de78ffeb2719a82)
+0041.605 (0) Google Drive: quota usage: used=9739.3 MB, total=15360 MB, available=5620.7 MB
+0041.606 (0) Google Drive: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip: Attempting to upload to Google Drive (into folder id: 1NavoEGBZpmbS94jDpWvO9g1xUqE_iwjy)
+0043.459 (0) Googledrive chunked upload: 6.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 7.6 / 12)
+0044.351 (0) Googledrive chunked upload: 19.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 7.6 / 12)
+0045.256 (0) Googledrive chunked upload: 45.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 7.6 / 12)
+0046.453 (0) Googledrive chunked upload: 98 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 7.6 / 12)
+0049.313 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0049.315 (0) Google Drive: OK: Archive backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip uploaded in 7.71 seconds
+0049.315 (0) Recording as successfully uploaded: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip
+0049.320 (0) Deleting local file: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip: OK
+0049.325 (0) Beginning creation of dump of themes (split every: 400 MB)
+0049.368 (0) Total entities for the zip file: 28 directories, 190 files (0 skipped as non-modified), 43.8 MB
+0049.379 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0049.381 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.9 MB, 190 files batched, 109 (109) added so far); re-opening (prior size: 0 KB)
+0061.081 (0) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip.tmp: size is now: 24.90 MB
+0061.083 (0) A useful amount of data was added after this amount of zip processing: 12.1 s (normalised: 11.7 s, rate: 2191.6 KB/s)
+0075.896 (0) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip.tmp: size is now: 41.40 MB
+0075.900 (0) Creating zip file manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip.list-temp.tmp)
+0075.902 (0) Successfully created zip file manifest (size: 13822)
+0076.604 (0) Created themes zip (0) - 42352.4 KB in 27.3 s (1552.6 KB/s) (sha1: 999e4d04ae393175f10f372d5c7877e5069bffc3, sha256: 30ea965d2dae7ed0359752237a701b00d4252240796c8290d945717517128e6c)
+0076.607 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0076.608 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c7aa0e808f50d0e34de78ffeb2719a82)
+0077.387 (0) Google Drive: quota usage: used=9754.6 MB, total=15360 MB, available=5605.4 MB
+0077.388 (0) Google Drive: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip: Attempting to upload to Google Drive (into folder id: 1NavoEGBZpmbS94jDpWvO9g1xUqE_iwjy)
+0079.490 (0) Googledrive chunked upload: 2.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 7.2 / 12)
+0080.587 (0) Googledrive chunked upload: 7.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 7.3 / 12)
+0081.478 (0) Googledrive chunked upload: 16.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 7.3 / 12)
+0082.898 (0) Googledrive chunked upload: 36.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 7.3 / 12)
+0084.165 (0) Googledrive chunked upload: 75 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 7.3 / 12)
+0087.257 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0087.259 (0) Google Drive: OK: Archive backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip uploaded in 9.87 seconds
+0087.259 (0) Recording as successfully uploaded: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip
+0087.271 (0) Deleting local file: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip: OK
+0087.274 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0087.274 (0) Looking for candidates to backup in: /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/uploads
+0087.275 (0) finding files: trustindex-google-widget.css: adding to list (1)
+0087.275 (0) finding files: 2024: adding to list (2)
+0087.276 (0) finding files: wpcf7_uploads: adding to list (3)
+0087.276 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0087.431 (0) Total entities for the zip file: 4 directories, 836 files (0 skipped as non-modified), 403.6 MB
+0087.440 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0087.441 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.5 MB, 836 files batched, 102 (102) added so far); re-opening (prior size: 0 KB)
+0099.158 (0) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: size is now: 25.50 MB
+0099.161 (0) A useful amount of data was added after this amount of zip processing: 12.2 s (normalised: 11.9 s, rate: 2144.3 KB/s)
+0099.168 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 836 files batched, 59 (161) added so far); re-opening (prior size: 26079.8 KB)
+0118.109 (0) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: size is now: 50.70 MB
+0118.111 (0) A useful amount of data was added after this amount of zip processing: 19.1 s (normalised: 19 s, rate: 1349.4 KB/s)
+0118.116 (0) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 200 files added (on-disk size: 51879.5 KB)
+0118.118 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 836 files batched, 50 (211) added so far); re-opening (prior size: 51879.5 KB)
+0362.765 (1) Opened log file at time: Sun, 12 May 2024 23:11:47 +0000 on https://gardnerconference.exoticaitsolutions.com
+0362.766 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.1.27 (litespeed, Linux in-mum-web678.main-hosting.eu 4.18.0-513.9.1.lve.el7h.x86_64 #1 SMP Mon Dec 4 13:57:13 UTC 2023 x86_64) MySQL: 10.11.7-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 4.3M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0362.767 (1) Free space on disk containing Updraft's temporary directory: 2530398.5 MB
+0362.768 (1) Requesting backup semaphore lock (c9127e291400)
+0362.769 (1) [Debug] Lock option (updraft_lock_c9127e291400, wp_options) was created in the database
+0362.770 (1) [Info] Lock (updraft_lock_c9127e291400, wp_options) acquired after initialising the database
+0362.771 (1) Backup run: resumption=1, nonce=c9127e291400, file_nonce=c9127e291400 begun at=1715555145 (362s ago), job type=backup, previous check-in=118.11s
+0362.772 (1) Scheduling a resumption (2) after 300 seconds (1715555807) in case this run gets aborted
+0362.782 (1) Checking if we have a zip executable available
+0362.783 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0362.784 (1) Creation of backups of directories: had begun; will resume
+0362.786 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0362.788 (1) Beginning creation of dump of themes (split every: 400 MB)
+0362.789 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0362.790 (1) Looking for candidates to backup in: /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/uploads
+0362.790 (1) finding files: trustindex-google-widget.css: adding to list (1)
+0362.791 (1) finding files: 2024: adding to list (2)
+0362.791 (1) finding files: wpcf7_uploads: adding to list (3)
+0362.792 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0362.793 (1) File exists (/home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1715555288, time_now=1715555507, diff=219)
+0362.801 (1) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: Zip file already exists, with 211 files
+0362.820 (1) Total entities for the zip file: 4 directories, 836 files (0 skipped as non-modified), 403.6 MB
+0362.822 (1) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 100 files added (on-disk size: 77619 KB)
+0362.823 (1) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 200 files added (on-disk size: 77619 KB)
+0362.827 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 836 files batched, 48 (48) added so far); re-opening (prior size: 77619 KB)
+0393.367 (1) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: size is now: 101.00 MB
+0393.369 (1) A useful amount of data was added after this amount of zip processing: 31.4 s (normalised: 31.1 s, rate: 823.5 KB/s)
+0393.370 (1) Performance is good - will increase the amount of data we attempt to batch (time=31.368700027466, normalised_time=31.087505532764, max_time=118, data points known=1, old_max_bytes=26214400, new_max_bytes=59701783)
+0393.376 (1) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 300 files added (on-disk size: 103452.7 KB)
+0393.384 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 56.9 MB added on this batch (62 MB, 836 files batched, 118 (166) added so far); re-opening (prior size: 103452.7 KB)
+0449.421 (1) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: size is now: 163.00 MB
+0449.423 (1) A useful amount of data was added after this amount of zip processing: 56.4 s (normalised: 51.8 s, rate: 1124.6 KB/s)
+0449.425 (1) Performance is good - will increase the amount of data we attempt to batch (time=56.423501968384, normalised_time=51.842558508634, max_time=118, data points known=1, old_max_bytes=59701783, new_max_bytes=81533133)
+0449.428 (1) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 400 files added (on-disk size: 166931.8 KB)
+0449.437 (1) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 500 files added (on-disk size: 166931.8 KB)
+0449.447 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 77.8 MB added on this batch (79.2 MB, 836 files batched, 207 (373) added so far); re-opening (prior size: 166931.8 KB)
+0725.727 (2) Opened log file at time: Sun, 12 May 2024 23:17:50 +0000 on https://gardnerconference.exoticaitsolutions.com
+0725.728 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.1.27 (litespeed, Linux in-mum-web678.main-hosting.eu 4.18.0-513.9.1.lve.el7h.x86_64 #1 SMP Mon Dec 4 13:57:13 UTC 2023 x86_64) MySQL: 10.11.7-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 4.3M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0725.729 (2) Free space on disk containing Updraft's temporary directory: 2531174.5 MB
+0725.730 (2) Requesting backup semaphore lock (c9127e291400)
+0725.730 (2) [Info] Lock (updraft_lock_c9127e291400, wp_options) acquired
+0725.731 (2) Backup run: resumption=2, nonce=c9127e291400, file_nonce=c9127e291400 begun at=1715555145 (725s ago), job type=backup, previous check-in=86.66s
+0725.732 (2) Scheduling a resumption (3) after 300 seconds (1715556170) in case this run gets aborted
+0725.743 (2) Checking if we have a zip executable available
+0725.743 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0725.744 (2) Creation of backups of directories: had begun; will resume
+0725.745 (2) Beginning creation of dump of plugins (split every: 400 MB)
+0725.747 (2) Beginning creation of dump of themes (split every: 400 MB)
+0725.749 (2) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0725.749 (2) Looking for candidates to backup in: /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/uploads
+0725.750 (2) finding files: trustindex-google-widget.css: adding to list (1)
+0725.750 (2) finding files: 2024: adding to list (2)
+0725.751 (2) finding files: wpcf7_uploads: adding to list (3)
+0725.751 (2) Beginning creation of dump of uploads (split every: 400 MB)
+0725.752 (2) File exists (/home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1715555674, time_now=1715555870, diff=196)
+0725.763 (2) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: Zip file already exists, with 584 files
+0725.782 (2) Total entities for the zip file: 4 directories, 836 files (0 skipped as non-modified), 403.6 MB
+0725.784 (2) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 100 files added (on-disk size: 248052.9 KB)
+0725.785 (2) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 200 files added (on-disk size: 248052.9 KB)
+0725.786 (2) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 300 files added (on-disk size: 248052.9 KB)
+0725.787 (2) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 400 files added (on-disk size: 248052.9 KB)
+0725.788 (2) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 500 files added (on-disk size: 248052.9 KB)
+0725.791 (2) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 600 files added (on-disk size: 248052.9 KB)
+0725.800 (2) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 700 files added (on-disk size: 248052.9 KB)
+0725.801 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 77.8 MB added on this batch (79 MB, 836 files batched, 120 (120) added so far); re-opening (prior size: 248052.9 KB)
+0826.486 (2) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: size is now: 321.20 MB
+0826.488 (2) A useful amount of data was added after this amount of zip processing: 101.5 s (normalised: 99.9 s, rate: 796.7 KB/s)
+0826.500 (2) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 800 files added (on-disk size: 328934 KB)
+0826.504 (2) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (76.4 MB, 123 (243) files added so far); last ratio: 1; re-opening (prior size: 328934 KB)
+1088.759 (3) Opened log file at time: Sun, 12 May 2024 23:23:53 +0000 on https://gardnerconference.exoticaitsolutions.com
+1088.772 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.1.27 (litespeed, Linux in-mum-web678.main-hosting.eu 4.18.0-513.9.1.lve.el7h.x86_64 #1 SMP Mon Dec 4 13:57:13 UTC 2023 x86_64) MySQL: 10.11.7-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 4.3M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+1088.773 (3) Free space on disk containing Updraft's temporary directory: 2531013.5 MB
+1088.773 (3) Requesting backup semaphore lock (c9127e291400)
+1088.774 (3) [Info] Lock (updraft_lock_c9127e291400, wp_options) acquired
+1088.776 (3) Backup run: resumption=3, nonce=c9127e291400, file_nonce=c9127e291400 begun at=1715555145 (1088s ago), job type=backup, previous check-in=100.76s
+1088.777 (3) Scheduling a resumption (4) after 300 seconds (1715556533) in case this run gets aborted
+1088.787 (3) Checking if we have a zip executable available
+1088.788 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1088.788 (3) Creation of backups of directories: had begun; will resume
+1088.790 (3) Beginning creation of dump of plugins (split every: 400 MB)
+1088.792 (3) Beginning creation of dump of themes (split every: 400 MB)
+1088.794 (3) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1088.795 (3) Looking for candidates to backup in: /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/uploads
+1088.795 (3) finding files: trustindex-google-widget.css: adding to list (1)
+1088.796 (3) finding files: 2024: adding to list (2)
+1088.796 (3) finding files: wpcf7_uploads: adding to list (3)
+1088.797 (3) Beginning creation of dump of uploads (split every: 400 MB)
+1088.797 (3) File exists (/home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1715556089, time_now=1715556233, diff=144)
+1088.810 (3) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: Zip file already exists, with 827 files
+1088.876 (3) Total entities for the zip file: 4 directories, 836 files (0 skipped as non-modified), 403.6 MB
+1088.878 (3) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 100 files added (on-disk size: 407235.1 KB)
+1088.879 (3) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 200 files added (on-disk size: 407235.1 KB)
+1088.881 (3) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 300 files added (on-disk size: 407235.1 KB)
+1088.882 (3) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 400 files added (on-disk size: 407235.1 KB)
+1088.883 (3) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 500 files added (on-disk size: 407235.1 KB)
+1088.884 (3) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 600 files added (on-disk size: 407235.1 KB)
+1088.885 (3) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 700 files added (on-disk size: 407235.1 KB)
+1088.886 (3) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.tmp: 800 files added (on-disk size: 407235.1 KB)
+1088.887 (3) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (6.1 MB, 7 (7) files added so far); last ratio: 1.0004; re-opening (prior size: 407235.1 KB)
+1190.403 (3) Zip size is at/near split limit (403.8 MB / 400 MB) - bumping index (from: 0)
+1196.523 (3) Creating zip file manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.list-temp.tmp)
+1196.528 (3) Successfully created zip file manifest (size: 48432)
+1196.530 (3) Created uploads zip (0) - 413454.7 KB in 101.6 s (4069.2 KB/s) (checksums: sha1: 7d17f7cbbf1a67696a7aa099920b82f7b33f4e92, sha256: 03050f22fed7468639b6b8ec45c6481dac6caffd8c59bd507d3b78da88f032a0)
+1196.535 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1196.536 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c7aa0e808f50d0e34de78ffeb2719a82)
+1200.032 (3) Google Drive: quota usage: used=9795.9 MB, total=15360 MB, available=5564.1 MB
+1200.033 (3) Google Drive: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip: Attempting to upload to Google Drive (into folder id: 1NavoEGBZpmbS94jDpWvO9g1xUqE_iwjy)
+1204.375 (3) Googledrive chunked upload: 0.2 % uploaded (1048576)
+1452.062 (4) Opened log file at time: Sun, 12 May 2024 23:29:57 +0000 on https://gardnerconference.exoticaitsolutions.com
+1452.063 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.1.27 (litespeed, Linux in-mum-web678.main-hosting.eu 4.18.0-513.9.1.lve.el7h.x86_64 #1 SMP Mon Dec 4 13:57:13 UTC 2023 x86_64) MySQL: 10.11.7-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 4.3M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+1452.064 (4) Free space on disk containing Updraft's temporary directory: 2531007.4 MB
+1452.065 (4) Requesting backup semaphore lock (c9127e291400)
+1452.066 (4) [Info] Lock (updraft_lock_c9127e291400, wp_options) acquired
+1452.067 (4) Backup run: resumption=4, nonce=c9127e291400, file_nonce=c9127e291400 begun at=1715555145 (1452s ago), job type=backup, previous check-in=115.61s
+1452.068 (4) Scheduling a resumption (5) after 300 seconds (1715556897) in case this run gets aborted
+1452.078 (4) Checking if we have a zip executable available
+1452.078 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1452.079 (4) Creation of backups of directories: had begun; will resume
+1452.081 (4) Beginning creation of dump of plugins (split every: 400 MB)
+1452.083 (4) Beginning creation of dump of themes (split every: 400 MB)
+1452.085 (4) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1452.086 (4) Looking for candidates to backup in: /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/uploads
+1452.086 (4) finding files: trustindex-google-widget.css: adding to list (1)
+1452.087 (4) finding files: 2024: adding to list (2)
+1452.087 (4) finding files: wpcf7_uploads: adding to list (3)
+1452.087 (4) Beginning creation of dump of uploads (split every: 400 MB)
+1452.088 (4) File exists (/home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1715556341, time_now=1715556597, diff=256)
+1452.089 (4) Successfully read zip manifest file contents (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.list.tmp)
+1452.090 (4) Zip file already exists, but is not readable or was zero-sized; will remove: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp
+1452.108 (4) Total entities for the zip file: 4 directories, 836 files (0 skipped as non-modified), 403.6 MB
+1452.115 (4) PHP event: code E_WARNING: filesize(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp (line 4287, wp-content/plugins/updraftplus/backup.php)
+1452.115 (4) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp: 100 files added (on-disk size: 0 KB)
+1452.117 (4) PHP event: code E_WARNING: filesize(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp (line 4287, wp-content/plugins/updraftplus/backup.php)
+1452.117 (4) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp: 200 files added (on-disk size: 0 KB)
+1452.118 (4) PHP event: code E_WARNING: filesize(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp (line 4287, wp-content/plugins/updraftplus/backup.php)
+1452.118 (4) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp: 300 files added (on-disk size: 0 KB)
+1452.119 (4) PHP event: code E_WARNING: filesize(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp (line 4287, wp-content/plugins/updraftplus/backup.php)
+1452.119 (4) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp: 400 files added (on-disk size: 0 KB)
+1452.120 (4) PHP event: code E_WARNING: filesize(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp (line 4287, wp-content/plugins/updraftplus/backup.php)
+1452.120 (4) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp: 500 files added (on-disk size: 0 KB)
+1452.121 (4) PHP event: code E_WARNING: filesize(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp (line 4287, wp-content/plugins/updraftplus/backup.php)
+1452.121 (4) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp: 600 files added (on-disk size: 0 KB)
+1452.123 (4) PHP event: code E_WARNING: filesize(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp (line 4287, wp-content/plugins/updraftplus/backup.php)
+1452.123 (4) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp: 700 files added (on-disk size: 0 KB)
+1452.124 (4) PHP event: code E_WARNING: filesize(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp (line 4287, wp-content/plugins/updraftplus/backup.php)
+1452.124 (4) Zip: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp: 800 files added (on-disk size: 0 KB)
+1452.134 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.tmp: size is now: 0.00 MB
+1452.136 (4) Creating zip file manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.list-temp.tmp)
+1452.137 (4) Successfully created zip file manifest (size: 129)
+1452.141 (4) Created uploads zip (1) - 14.3 KB in 0.1 s (280.6 KB/s) (sha1: f160348686cd60eb134b93217883e3d3d9ff6b44, sha256: fb451e2f4aeca0c729eb34083c75ee4c9f52748b5afe54d07265a151f945eaae)
+1452.142 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1452.143 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c7aa0e808f50d0e34de78ffeb2719a82)
+1454.497 (4) Google Drive: quota usage: used=9795.9 MB, total=15360 MB, available=5564.1 MB
+1454.497 (4) Google Drive: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1NavoEGBZpmbS94jDpWvO9g1xUqE_iwjy)
+1458.031 (4) Googledrive chunked upload: 100 % uploaded
+1458.034 (4) Google Drive: OK: Archive backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip uploaded in 3.54 seconds
+1458.035 (4) Recording as successfully uploaded: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip
+1458.037 (4) Deleting local file: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip: OK
+1458.041 (4) Beginning creation of dump of mu-plugins (split every: 400 MB)
+1458.041 (4) Does not exist: /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/mu-plugins
+1458.042 (4) There are no mu-plugins to backup. Will not raise an error.
+1458.043 (4) mu-plugins: create_zip returned an error
+1458.045 (4) Beginning backup of other directories found in the content directory (index: 0)
+1458.045 (4) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1458.046 (4) Looking for candidates to backup in: /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content
+1458.047 (4) finding files: upgrade: skipping: excluded by options
+1458.047 (4) finding files: ewww: adding to list (1)
+1458.048 (4) finding files: uploads: skipping: this is the uploads directory
+1458.048 (4) finding files: languages: adding to list (2)
+1458.049 (4) finding files: upgrade-temp-backup: adding to list (3)
+1458.049 (4) finding files: themes: skipping: this is the themes directory
+1458.050 (4) finding files: index.php: adding to list (4)
+1458.050 (4) finding files: jetpack-waf: adding to list (5)
+1458.051 (4) finding files: updraft: skipping: this is the updraft directory
+1458.052 (4) finding files: wflogs: adding to list (6)
+1458.052 (4) finding files: logs: adding to list (7)
+1458.053 (4) finding files: plugins: skipping: this is the plugins directory
+1458.064 (4) Total entities for the zip file: 9 directories, 87 files (0 skipped as non-modified), 9.5 MB
+1460.471 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-others.zip.tmp: size is now: 3.90 MB
+1460.474 (4) Creating zip file manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-others.zip.list-temp.tmp)
+1460.476 (4) Successfully created zip file manifest (size: 4641)
+1460.543 (4) Created others zip (0) - 3996 KB in 2.5 s (1606 KB/s) (sha1: 0671a09a568c36777824dd3a591709db6d2375eb, sha256: d6fd14b3efd25ee9cece399ebf7ffef80b5dc9d312a381a12fdb0aece3bd0183)
+1460.547 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1460.547 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c7aa0e808f50d0e34de78ffeb2719a82)
+1461.243 (4) Google Drive: quota usage: used=9796 MB, total=15360 MB, available=5564 MB
+1461.244 (4) Google Drive: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-others.zip: Attempting to upload to Google Drive (into folder id: 1NavoEGBZpmbS94jDpWvO9g1xUqE_iwjy)
+1463.086 (4) Googledrive chunked upload: 25.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 7.2 / 8)
+1463.897 (4) Googledrive chunked upload: 76.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 7.2 / 8)
+1466.612 (4) Googledrive chunked upload: 100 % uploaded (3145728)
+1466.614 (4) Google Drive: OK: Archive backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-others.zip uploaded in 5.37 seconds
+1466.615 (4) Recording as successfully uploaded: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-others.zip
+1466.618 (4) Deleting local file: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-others.zip: OK
+1466.622 (4) Saving backup status to database (elements: 9)
+1466.624 (4) Resuming creation of database dump (WordPress DB)
+1466.625 (4) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1466.627 (4) Testing potential mysqldump binary: /usr/bin/mysqldump
+1466.681 (4) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1472 bytes total)
+1466.682 (4) Working binary mysqldump found: /usr/bin/mysqldump
+1466.694 (4) Table wp_options: Total expected rows (via COUNT): 678
+1466.724 (4) Table wp_options: Rows added in this batch (next record: 3684): 674 (uncompressed bytes in this segment=743348) in 0.03 seconds
+1466.729 (4) Table wp_options: finishing file(s) (2, 147.2 KB)
+1466.733 (4) Table wp_users: Total expected rows (via COUNT): 1
+1466.734 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1466.736 (4) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1234) in 0.01 seconds
+1466.740 (4) Table wp_users: finishing file(s) (2, 0.6 KB)
+1466.747 (4) Table wp_usermeta: Total expected rows (via COUNT): 50
+1466.748 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1466.752 (4) Table wp_usermeta: Rows added in this batch (next record: 51): 50 (uncompressed bytes in this segment=81679) in 0.01 seconds
+1466.757 (4) Table wp_usermeta: finishing file(s) (2, 8.4 KB)
+1466.763 (4) Table wp_commentmeta: Total expected rows (via COUNT): 0
+1466.765 (4) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+1466.770 (4) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+1466.775 (4) Table wp_comments: Total expected rows (via COUNT): 1
+1466.776 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1466.779 (4) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1885) in 0.01 seconds
+1466.783 (4) Table wp_comments: finishing file(s) (2, 0.7 KB)
+1466.788 (4) Table wp_links: Total expected rows (via COUNT): 0
+1466.790 (4) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.00 seconds
+1466.794 (4) Table wp_links: finishing file(s) (2, 0.5 KB)
+1466.796 (4) Table wp_postmeta: Total expected rows (approximate): 19855
+1466.910 (4) Table wp_postmeta: binary mysqldump finished (writes: 18306, bytes 1965424, return code 0) in 0.11 seconds
+1466.913 (4) Table wp_postmeta: finishing file(s) (1, 195.7 KB)
+1466.927 (4) Table wp_posts: Total expected rows (via COUNT): 821
+1466.965 (4) Table wp_posts: Rows added in this batch (next record: 1100): 821 (uncompressed bytes in this segment=410779) in 0.05 seconds
+1466.970 (4) Table wp_posts: finishing file(s) (2, 43.6 KB)
+1466.974 (4) Table wp_term_relationships: Total expected rows (approximate): 182
+1466.978 (4) Table wp_term_relationships: Rows added in this batch (next record: 100000): 186 (uncompressed bytes in this segment=3373) in 0.00 seconds
+1466.981 (4) Table wp_term_relationships: finishing file(s) (2, 0.9 KB)
+1466.987 (4) Table wp_term_taxonomy: Total expected rows (via COUNT): 36
+1466.988 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1466.990 (4) Table wp_term_taxonomy: Rows added in this batch (next record: 42): 36 (uncompressed bytes in this segment=2614) in 0.01 seconds
+1466.994 (4) Table wp_term_taxonomy: finishing file(s) (2, 0.8 KB)
+1467.006 (4) Table wp_termmeta: Total expected rows (approximate): 1546
+1467.020 (4) Table wp_termmeta: Rows added in this batch (next record: 1650): 1644 (uncompressed bytes in this segment=163073) in 0.02 seconds
+1467.024 (4) Table wp_termmeta: finishing file(s) (2, 24.5 KB)
+1467.028 (4) Table wp_terms: Total expected rows (via COUNT): 36
+1467.029 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1467.031 (4) Table wp_terms: Rows added in this batch (next record: 42): 36 (uncompressed bytes in this segment=2184) in 0.00 seconds
+1467.034 (4) Table wp_terms: finishing file(s) (2, 0.9 KB)
+1467.041 (4) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 4
+1467.042 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1467.044 (4) Table wp_actionscheduler_actions: Rows added in this batch (next record: 57): 4 (uncompressed bytes in this segment=2924) in 0.01 seconds
+1467.048 (4) Table wp_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+1467.052 (4) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+1467.054 (4) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=623) in 0.00 seconds
+1467.057 (4) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+1467.062 (4) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+1467.062 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1467.065 (4) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=674) in 0.00 seconds
+1467.068 (4) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+1467.073 (4) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 8
+1467.074 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1467.075 (4) Table wp_actionscheduler_logs: Rows added in this batch (next record: 32): 8 (uncompressed bytes in this segment=1475) in 0.00 seconds
+1467.078 (4) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+1467.086 (4) Table wp_aioseo_cache: Total expected rows (via COUNT): 9
+1467.087 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1467.091 (4) Table wp_aioseo_cache: Rows added in this batch (next record: 10): 9 (uncompressed bytes in this segment=95655) in 0.01 seconds
+1467.096 (4) Table wp_aioseo_cache: finishing file(s) (2, 18.7 KB)
+1467.100 (4) Table wp_aioseo_crawl_cleanup_blocked_args: Total expected rows (via COUNT): 0
+1467.103 (4) Table wp_aioseo_crawl_cleanup_blocked_args: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=947) in 0.00 seconds
+1467.106 (4) Table wp_aioseo_crawl_cleanup_blocked_args: finishing file(s) (2, 0.4 KB)
+1467.110 (4) Table wp_aioseo_crawl_cleanup_logs: Total expected rows (via COUNT): 0
+1467.111 (4) Table wp_aioseo_crawl_cleanup_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=770) in 0.00 seconds
+1467.115 (4) Table wp_aioseo_crawl_cleanup_logs: finishing file(s) (2, 0.4 KB)
+1467.121 (4) Table wp_aioseo_notifications: Total expected rows (via COUNT): 0
+1467.122 (4) Table wp_aioseo_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1365) in 0.00 seconds
+1467.126 (4) Table wp_aioseo_notifications: finishing file(s) (2, 0.5 KB)
+1467.132 (4) Table wp_aioseo_posts: Total expected rows (via COUNT): 7
+1467.132 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1467.134 (4) Table wp_aioseo_posts: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=8851) in 0.01 seconds
+1467.138 (4) Table wp_aioseo_posts: finishing file(s) (2, 1.3 KB)
+1467.144 (4) Table wp_ewwwio_images: Total expected rows (via COUNT): 132
+1467.144 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1467.148 (4) Table wp_ewwwio_images: Rows added in this batch (next record: 133): 132 (uncompressed bytes in this segment=26157) in 0.01 seconds
+1467.152 (4) Table wp_ewwwio_images: finishing file(s) (2, 3.7 KB)
+1467.157 (4) Table wp_ewwwio_queue: Total expected rows (via COUNT): 1
+1467.157 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1467.160 (4) Table wp_ewwwio_queue: Rows added in this batch (next record: 140): 1 (uncompressed bytes in this segment=937) in 0.00 seconds
+1467.163 (4) Table wp_ewwwio_queue: finishing file(s) (2, 0.5 KB)
+1467.167 (4) Table wp_gf_draft_submissions: Total expected rows (approximate): 0
+1467.170 (4) Table wp_gf_draft_submissions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=696) in 0.00 seconds
+1467.173 (4) Table wp_gf_draft_submissions: finishing file(s) (2, 0.4 KB)
+1467.177 (4) Table wp_gf_entry: Total expected rows (via COUNT): 0
+1467.178 (4) Table wp_gf_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1307) in 0.00 seconds
+1467.181 (4) Table wp_gf_entry: finishing file(s) (2, 0.5 KB)
+1467.187 (4) Table wp_gf_entry_meta: Total expected rows (via COUNT): 0
+1467.189 (4) Table wp_gf_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.00 seconds
+1467.193 (4) Table wp_gf_entry_meta: finishing file(s) (2, 0.4 KB)
+1467.199 (4) Table wp_gf_entry_notes: Total expected rows (via COUNT): 0
+1467.201 (4) Table wp_gf_entry_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=779) in 0.01 seconds
+1467.205 (4) Table wp_gf_entry_notes: finishing file(s) (2, 0.4 KB)
+1467.209 (4) Table wp_gf_form: Total expected rows (via COUNT): 0
+1467.210 (4) Table wp_gf_form: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=599) in 0.00 seconds
+1467.213 (4) Table wp_gf_form: finishing file(s) (2, 0.4 KB)
+1467.220 (4) Table wp_gf_form_meta: Total expected rows (via COUNT): 0
+1467.222 (4) Table wp_gf_form_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=591) in 0.01 seconds
+1467.226 (4) Table wp_gf_form_meta: finishing file(s) (2, 0.3 KB)
+1467.233 (4) Table wp_gf_form_revisions: Total expected rows (via COUNT): 0
+1467.235 (4) Table wp_gf_form_revisions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.01 seconds
+1467.240 (4) Table wp_gf_form_revisions: finishing file(s) (2, 0.4 KB)
+1467.244 (4) Table wp_gf_form_view: Total expected rows (via COUNT): 0
+1467.246 (4) Table wp_gf_form_view: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+1467.249 (4) Table wp_gf_form_view: finishing file(s) (2, 0.4 KB)
+1467.256 (4) Table wp_jetpack_waf_blocklog: Total expected rows (via COUNT): 0
+1467.257 (4) Table wp_jetpack_waf_blocklog: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.00 seconds
+1467.261 (4) Table wp_jetpack_waf_blocklog: finishing file(s) (2, 0.4 KB)
+1467.268 (4) Table wp_newsletter: Total expected rows (via COUNT): 1
+1467.268 (4) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1467.271 (4) Table wp_newsletter: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=4717) in 0.01 seconds
+1467.275 (4) Table wp_newsletter: finishing file(s) (2, 0.9 KB)
+1467.282 (4) Table wp_newsletter_emails: Total expected rows (via COUNT): 0
+1467.284 (4) Table wp_newsletter_emails: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1700) in 0.01 seconds
+1467.288 (4) Table wp_newsletter_emails: finishing file(s) (2, 0.6 KB)
+1467.295 (4) Table wp_newsletter_logs: Total expected rows (via COUNT): 0
+1467.296 (4) Table wp_newsletter_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=638) in 0.00 seconds
+1467.301 (4) Table wp_newsletter_logs: finishing file(s) (2, 0.4 KB)
+1467.305 (4) Table wp_newsletter_sent: Total expected rows (approximate): 0
+1467.306 (4) Table wp_newsletter_sent: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+1467.310 (4) Table wp_newsletter_sent: finishing file(s) (2, 0.4 KB)
+1467.316 (4) Table wp_newsletter_stats: Total expected rows (via COUNT): 0
+1467.317 (4) Table wp_newsletter_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+1467.320 (4) Table wp_newsletter_stats: finishing file(s) (2, 0.4 KB)
+1467.327 (4) Table wp_newsletter_user_logs: Total expected rows (via COUNT): 0
+1467.328 (4) Table wp_newsletter_user_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+1467.332 (4) Table wp_newsletter_user_logs: finishing file(s) (2, 0.4 KB)
+1467.339 (4) Table wp_newsletter_user_meta: Total expected rows (via COUNT): 0
+1467.340 (4) Table wp_newsletter_user_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=611) in 0.01 seconds
+1467.345 (4) Table wp_newsletter_user_meta: finishing file(s) (2, 0.4 KB)
+1467.351 (4) Table wp_trp_gettext_en_us: Total expected rows (via COUNT): 0
+1467.353 (4) Table wp_trp_gettext_en_us: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.01 seconds
+1467.357 (4) Table wp_trp_gettext_en_us: finishing file(s) (2, 0.4 KB)
+1467.361 (4) Table wp_trustindex_google_reviews: Total expected rows (approximate): 10
+1467.363 (4) Table wp_trustindex_google_reviews: Rows added in this batch (next record: 1000): 10 (uncompressed bytes in this segment=5355) in 0.00 seconds
+1467.366 (4) Table wp_trustindex_google_reviews: finishing file(s) (2, 2.4 KB)
+1467.370 (4) Table wp_wfblockediplog: Total expected rows (approximate): 0
+1467.372 (4) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+1467.375 (4) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+1467.380 (4) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+1467.381 (4) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.00 seconds
+1467.384 (4) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+1467.388 (4) Table wp_wfconfig: Total expected rows (approximate): 219
+1467.391 (4) Table wp_wfconfig: Rows added in this batch (next record: 1000): 219 (uncompressed bytes in this segment=12083) in 0.00 seconds
+1467.394 (4) Table wp_wfconfig: finishing file(s) (2, 3.4 KB)
+1467.399 (4) Table wp_wfcrawlers: Total expected rows (approximate): 0
+1467.400 (4) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=582) in 0.00 seconds
+1467.404 (4) Table wp_wfcrawlers: finishing file(s) (2, 0.4 KB)
+1467.407 (4) Table wp_wffilechanges: Total expected rows (approximate): 0
+1467.408 (4) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=482) in 0.00 seconds
+1467.411 (4) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+1467.415 (4) Table wp_wffilemods: Total expected rows (approximate): 0
+1467.416 (4) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=847) in 0.00 seconds
+1467.420 (4) Table wp_wffilemods: finishing file(s) (2, 0.4 KB)
+1467.424 (4) Table wp_wfhits: Total expected rows (via COUNT): 0
+1467.426 (4) Table wp_wfhits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=992) in 0.00 seconds
+1467.429 (4) Table wp_wfhits: finishing file(s) (2, 0.5 KB)
+1467.433 (4) Table wp_wfhoover: Total expected rows (via COUNT): 0
+1467.435 (4) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=545) in 0.00 seconds
+1467.438 (4) Table wp_wfhoover: finishing file(s) (2, 0.4 KB)
+1467.446 (4) Table wp_wfissues: Total expected rows (via COUNT): 0
+1467.447 (4) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=860) in 0.00 seconds
+1467.450 (4) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+1467.455 (4) Table wp_wfknownfilelist: Total expected rows (via COUNT): 0
+1467.456 (4) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=495) in 0.00 seconds
+1467.459 (4) Table wp_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+1467.463 (4) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+1467.464 (4) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=678) in 0.00 seconds
+1467.467 (4) Table wp_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+1467.471 (4) Table wp_wflocs: Total expected rows (approximate): 0
+1467.472 (4) Table wp_wflocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=708) in 0.00 seconds
+1467.476 (4) Table wp_wflocs: finishing file(s) (2, 0.4 KB)
+1467.480 (4) Table wp_wflogins: Total expected rows (via COUNT): 0
+1467.481 (4) Table wp_wflogins: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.00 seconds
+1467.484 (4) Table wp_wflogins: finishing file(s) (2, 0.4 KB)
+1467.489 (4) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+1467.490 (4) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=711) in 0.00 seconds
+1467.493 (4) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+1467.496 (4) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+1467.497 (4) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=576) in 0.00 seconds
+1467.500 (4) Table wp_wfls_role_counts: finishing file(s) (2, 0.4 KB)
+1467.504 (4) Table wp_wfls_settings: Total expected rows (approximate): 26
+1467.505 (4) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 30 (uncompressed bytes in this segment=2096) in 0.00 seconds
+1467.508 (4) Table wp_wfls_settings: finishing file(s) (2, 1 KB)
+1467.511 (4) Table wp_wfnotifications: Total expected rows (approximate): 0
+1467.513 (4) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=874) in 0.00 seconds
+1467.516 (4) Table wp_wfnotifications: finishing file(s) (2, 0.5 KB)
+1467.520 (4) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+1467.521 (4) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+1467.524 (4) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+1467.527 (4) Table wp_wfreversecache: Total expected rows (approximate): 0
+1467.529 (4) Table wp_wfreversecache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=527) in 0.00 seconds
+1467.532 (4) Table wp_wfreversecache: finishing file(s) (2, 0.3 KB)
+1467.535 (4) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+1467.536 (4) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=729) in 0.00 seconds
+1467.540 (4) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+1467.544 (4) Table wp_wfstatus: Total expected rows (via COUNT): 0
+1467.545 (4) Table wp_wfstatus: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=582) in 0.00 seconds
+1467.549 (4) Table wp_wfstatus: finishing file(s) (2, 0.4 KB)
+1467.553 (4) Table wp_wftrafficrates: Total expected rows (approximate): 0
+1467.554 (4) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=596) in 0.00 seconds
+1467.557 (4) Table wp_wftrafficrates: finishing file(s) (2, 0.4 KB)
+1467.558 (4) PHP event: code E_WARNING: filemtime(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/gardnerconference/wp-content/updraft/backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+1467.559 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_options.table.tmpr3685.gz (1/63/fopen): adding to final database dump
+1467.563 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_options.table.gz (2/63/fopen): adding to final database dump
+1467.563 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_users.table.tmpr2.gz (3/63/fopen): adding to final database dump
+1467.564 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_users.table.gz (4/63/fopen): adding to final database dump
+1467.564 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_usermeta.table.tmpr52.gz (5/63/fopen): adding to final database dump
+1467.565 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_usermeta.table.gz (6/63/fopen): adding to final database dump
+1467.566 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_commentmeta.table.tmpr0.gz (7/63/fopen): adding to final database dump
+1467.566 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_commentmeta.table.gz (8/63/fopen): adding to final database dump
+1467.567 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_comments.table.tmpr2.gz (9/63/fopen): adding to final database dump
+1467.567 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_comments.table.gz (10/63/fopen): adding to final database dump
+1467.568 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_links.table.tmpr0.gz (11/63/fopen): adding to final database dump
+1467.568 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_links.table.gz (12/63/fopen): adding to final database dump
+1467.569 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_postmeta.table.gz (13/63/fopen): adding to final database dump
+1467.573 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_posts.table.tmpr1101.gz (14/63/fopen): adding to final database dump
+1467.575 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_posts.table.gz (15/63/fopen): adding to final database dump
+1467.575 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_term_relationships.table.tmpr100001.gz (16/63/fopen): adding to final database dump
+1467.576 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_term_relationships.table.gz (17/63/fopen): adding to final database dump
+1467.576 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_term_taxonomy.table.tmpr43.gz (18/63/fopen): adding to final database dump
+1467.577 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_term_taxonomy.table.gz (19/63/fopen): adding to final database dump
+1467.577 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_termmeta.table.tmpr1651.gz (20/63/fopen): adding to final database dump
+1467.578 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_termmeta.table.gz (21/63/fopen): adding to final database dump
+1467.579 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_terms.table.tmpr43.gz (22/63/fopen): adding to final database dump
+1467.579 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_terms.table.gz (23/63/fopen): adding to final database dump
+1467.580 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_actionscheduler_actions.table.tmpr58.gz (24/63/fopen): adding to final database dump
+1467.580 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_actionscheduler_actions.table.gz (25/63/fopen): adding to final database dump
+1467.581 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_actionscheduler_claims.table.tmpr0.gz (26/63/fopen): adding to final database dump
+1467.581 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_actionscheduler_claims.table.gz (27/63/fopen): adding to final database dump
+1467.582 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_actionscheduler_groups.table.tmpr3.gz (28/63/fopen): adding to final database dump
+1467.582 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_actionscheduler_groups.table.gz (29/63/fopen): adding to final database dump
+1467.583 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_actionscheduler_logs.table.tmpr33.gz (30/63/fopen): adding to final database dump
+1467.583 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_actionscheduler_logs.table.gz (31/63/fopen): adding to final database dump
+1467.584 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_cache.table.tmpr11.gz (32/63/fopen): adding to final database dump
+1467.585 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_cache.table.gz (33/63/fopen): adding to final database dump
+1467.585 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_crawl_cleanup_blocked_args.table.tmpr0.gz (34/63/fopen): adding to final database dump
+1467.586 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_crawl_cleanup_blocked_args.table.gz (35/63/fopen): adding to final database dump
+1467.586 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_crawl_cleanup_logs.table.tmpr0.gz (36/63/fopen): adding to final database dump
+1467.587 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_crawl_cleanup_logs.table.gz (37/63/fopen): adding to final database dump
+1467.587 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_notifications.table.tmpr0.gz (38/63/fopen): adding to final database dump
+1467.588 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_notifications.table.gz (39/63/fopen): adding to final database dump
+1467.588 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_posts.table.tmpr8.gz (40/63/fopen): adding to final database dump
+1467.589 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_aioseo_posts.table.gz (41/63/fopen): adding to final database dump
+1467.589 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_ewwwio_images.table.tmpr134.gz (42/63/fopen): adding to final database dump
+1467.590 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_ewwwio_images.table.gz (43/63/fopen): adding to final database dump
+1467.590 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_ewwwio_queue.table.tmpr141.gz (44/63/fopen): adding to final database dump
+1467.591 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_ewwwio_queue.table.gz (45/63/fopen): adding to final database dump
+1467.591 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_draft_submissions.table.tmpr1.gz (46/63/fopen): adding to final database dump
+1467.592 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_draft_submissions.table.gz (47/63/fopen): adding to final database dump
+1467.592 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_entry.table.tmpr0.gz (48/63/fopen): adding to final database dump
+1467.593 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_entry.table.gz (49/63/fopen): adding to final database dump
+1467.593 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_entry_meta.table.tmpr0.gz (50/63/fopen): adding to final database dump
+1467.594 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_entry_meta.table.gz (51/63/fopen): adding to final database dump
+1467.594 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_entry_notes.table.tmpr0.gz (52/63/fopen): adding to final database dump
+1467.594 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_entry_notes.table.gz (53/63/fopen): adding to final database dump
+1467.595 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_form.table.tmpr0.gz (54/63/fopen): adding to final database dump
+1467.595 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_form.table.gz (55/63/fopen): adding to final database dump
+1467.596 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_form_meta.table.tmpr0.gz (56/63/fopen): adding to final database dump
+1467.596 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_form_meta.table.gz (57/63/fopen): adding to final database dump
+1467.597 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_form_revisions.table.tmpr0.gz (58/63/fopen): adding to final database dump
+1467.597 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_form_revisions.table.gz (59/63/fopen): adding to final database dump
+1467.598 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_form_view.table.tmpr0.gz (60/63/fopen): adding to final database dump
+1467.598 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_gf_form_view.table.gz (61/63/fopen): adding to final database dump
+1467.599 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_jetpack_waf_blocklog.table.tmpr0.gz (62/63/fopen): adding to final database dump
+1467.599 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_jetpack_waf_blocklog.table.gz (63/63/fopen): adding to final database dump
+1467.600 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter.table.tmpr2.gz (64/63/fopen): adding to final database dump
+1467.600 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter.table.gz (65/63/fopen): adding to final database dump
+1467.601 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_emails.table.tmpr0.gz (66/63/fopen): adding to final database dump
+1467.601 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_emails.table.gz (67/63/fopen): adding to final database dump
+1467.602 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_logs.table.tmpr0.gz (68/63/fopen): adding to final database dump
+1467.602 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_logs.table.gz (69/63/fopen): adding to final database dump
+1467.603 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_sent.table.tmpr1.gz (70/63/fopen): adding to final database dump
+1467.603 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_sent.table.gz (71/63/fopen): adding to final database dump
+1467.604 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_stats.table.tmpr0.gz (72/63/fopen): adding to final database dump
+1467.604 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_stats.table.gz (73/63/fopen): adding to final database dump
+1467.605 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_user_logs.table.tmpr0.gz (74/63/fopen): adding to final database dump
+1467.605 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_user_logs.table.gz (75/63/fopen): adding to final database dump
+1467.605 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_user_meta.table.tmpr0.gz (76/63/fopen): adding to final database dump
+1467.606 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_newsletter_user_meta.table.gz (77/63/fopen): adding to final database dump
+1467.606 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_trp_gettext_en_us.table.tmpr0.gz (78/63/fopen): adding to final database dump
+1467.607 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_trp_gettext_en_us.table.gz (79/63/fopen): adding to final database dump
+1467.608 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_trustindex_google_reviews.table.tmpr1001.gz (80/63/fopen): adding to final database dump
+1467.608 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_trustindex_google_reviews.table.gz (81/63/fopen): adding to final database dump
+1467.609 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfblockediplog.table.tmpr1.gz (82/63/fopen): adding to final database dump
+1467.609 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfblockediplog.table.gz (83/63/fopen): adding to final database dump
+1467.610 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfblocks7.table.tmpr0.gz (84/63/fopen): adding to final database dump
+1467.610 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfblocks7.table.gz (85/63/fopen): adding to final database dump
+1467.611 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfconfig.table.tmpr1001.gz (86/63/fopen): adding to final database dump
+1467.612 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfconfig.table.gz (87/63/fopen): adding to final database dump
+1467.612 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfcrawlers.table.tmpr1.gz (88/63/fopen): adding to final database dump
+1467.612 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfcrawlers.table.gz (89/63/fopen): adding to final database dump
+1467.613 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wffilechanges.table.tmpr1.gz (90/63/fopen): adding to final database dump
+1467.613 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wffilechanges.table.gz (91/63/fopen): adding to final database dump
+1467.614 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wffilemods.table.tmpr1.gz (92/63/fopen): adding to final database dump
+1467.614 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wffilemods.table.gz (93/63/fopen): adding to final database dump
+1467.615 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfhits.table.tmpr0.gz (94/63/fopen): adding to final database dump
+1467.615 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfhits.table.gz (95/63/fopen): adding to final database dump
+1467.616 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfhoover.table.tmpr0.gz (96/63/fopen): adding to final database dump
+1467.616 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfhoover.table.gz (97/63/fopen): adding to final database dump
+1467.617 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfissues.table.tmpr0.gz (98/63/fopen): adding to final database dump
+1467.617 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfissues.table.gz (99/63/fopen): adding to final database dump
+1467.619 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfknownfilelist.table.tmpr0.gz (100/63/fopen): adding to final database dump
+1467.619 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfknownfilelist.table.gz (101/63/fopen): adding to final database dump
+1467.620 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wflivetraffichuman.table.tmpr1.gz (102/63/fopen): adding to final database dump
+1467.620 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wflivetraffichuman.table.gz (103/63/fopen): adding to final database dump
+1467.621 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wflocs.table.tmpr1.gz (104/63/fopen): adding to final database dump
+1467.621 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wflocs.table.gz (105/63/fopen): adding to final database dump
+1467.622 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wflogins.table.tmpr0.gz (106/63/fopen): adding to final database dump
+1467.622 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wflogins.table.gz (107/63/fopen): adding to final database dump
+1467.623 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (108/63/fopen): adding to final database dump
+1467.623 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfls_2fa_secrets.table.gz (109/63/fopen): adding to final database dump
+1467.624 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfls_role_counts.table.tmpr1.gz (110/63/fopen): adding to final database dump
+1467.624 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfls_role_counts.table.gz (111/63/fopen): adding to final database dump
+1467.625 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfls_settings.table.tmpr1001.gz (112/63/fopen): adding to final database dump
+1467.625 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfls_settings.table.gz (113/63/fopen): adding to final database dump
+1467.639 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfnotifications.table.tmpr1001.gz (114/63/fopen): adding to final database dump
+1467.639 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfnotifications.table.gz (115/63/fopen): adding to final database dump
+1467.640 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfpendingissues.table.tmpr0.gz (116/63/fopen): adding to final database dump
+1467.640 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfpendingissues.table.gz (117/63/fopen): adding to final database dump
+1467.641 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfreversecache.table.tmpr1.gz (118/63/fopen): adding to final database dump
+1467.641 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfreversecache.table.gz (119/63/fopen): adding to final database dump
+1467.642 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfsnipcache.table.tmpr0.gz (120/63/fopen): adding to final database dump
+1467.642 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfsnipcache.table.gz (121/63/fopen): adding to final database dump
+1467.643 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfstatus.table.tmpr0.gz (122/63/fopen): adding to final database dump
+1467.643 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wfstatus.table.gz (123/63/fopen): adding to final database dump
+1467.644 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wftrafficrates.table.tmpr1.gz (124/63/fopen): adding to final database dump
+1467.644 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db-table-wp_wftrafficrates.table.gz (125/63/fopen): adding to final database dump
+1467.648 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db.gz: finished writing out complete database file (473.4 KB)
+1467.676 (4) Total database tables backed up: 63 (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db.gz, size: 484874, sha1: 8401dc5757051deaf37e0b2791db3b34baee24dc, sha256: e1803e6a914fc7a55a934a2a0fd01fe50377c6130539746f43abc60f5ca8fa95)
+1467.682 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip: plugins: This file has already been successfully uploaded
+1467.682 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip: themes: This file has already been successfully uploaded
+1467.683 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1467.683 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip: uploads: This file has already been successfully uploaded
+1467.684 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-others.zip: others: This file has already been successfully uploaded
+1467.684 (4) backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db.gz: db: This file has not yet been successfully uploaded: will queue
+1467.685 (4) Saving backup history. Total backup size: 464.8 MB
+1467.687 (4) Requesting upload of the files that have not yet been successfully uploaded (2)
+1467.689 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1467.689 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c7aa0e808f50d0e34de78ffeb2719a82)
+1468.483 (4) Google Drive: quota usage: used=9799.9 MB, total=15360 MB, available=5560.1 MB
+1468.483 (4) Google Drive: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip: Attempting to upload to Google Drive (into folder id: 1NavoEGBZpmbS94jDpWvO9g1xUqE_iwjy)
+1468.831 (4) Google Drive: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip: upload already began; attempting to resume from byte 1572863
+1469.587 (4) Googledrive chunked upload: 0.6 % uploaded (2621440 - increasing chunk size to 2048 KB - memory usage: 7.2 / 12)
+1470.428 (4) Googledrive chunked upload: 1.1 % uploaded (4718592 - increasing chunk size to 4096 KB - memory usage: 7.2 / 12)
+1471.316 (4) Googledrive chunked upload: 2.1 % uploaded (8912896 - increasing chunk size to 8192 KB - memory usage: 7.2 / 12)
+1472.465 (4) Googledrive chunked upload: 4.1 % uploaded (17301504 - increasing chunk size to 16384 KB - memory usage: 7.2 / 12)
+1473.754 (4) Googledrive chunked upload: 8 % uploaded (34078720 - increasing chunk size to 32768 KB - memory usage: 7.2 / 12)
+1475.700 (4) Googledrive chunked upload: 16 % uploaded (67633152 - increasing chunk size to 65536 KB - memory usage: 7.2 / 12)
+1478.541 (4) Googledrive chunked upload: 31.8 % uploaded (134742016)
+1481.234 (4) Googledrive chunked upload: 47.7 % uploaded (201850880)
+1484.245 (4) Googledrive chunked upload: 63.5 % uploaded (268959744)
+1487.009 (4) Googledrive chunked upload: 79.4 % uploaded (336068608)
+1489.584 (4) Googledrive chunked upload: 95.2 % uploaded (403177472)
+1492.600 (4) Googledrive chunked upload: 100 % uploaded (403177472)
+1492.603 (4) Google Drive: OK: Archive backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip uploaded in 24.12 seconds
+1492.603 (4) Recording as successfully uploaded: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip
+1492.700 (4) Deleting local file: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip: OK
+1493.463 (4) Google Drive: quota usage: used=10203.6 MB, total=15360 MB, available=5156.4 MB
+1493.463 (4) Google Drive: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db.gz: Attempting to upload to Google Drive (into folder id: 1NavoEGBZpmbS94jDpWvO9g1xUqE_iwjy)
+1496.909 (4) Googledrive chunked upload: 100 % uploaded
+1496.911 (4) Google Drive: OK: Archive backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db.gz uploaded in 3.45 seconds
+1496.912 (4) Recording as successfully uploaded: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db.gz
+1496.913 (4) Deleting local file: backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-db.gz: OK
+1496.916 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+1496.917 (4) Number of backup sets in history: 2; groups (db): 1
+1496.918 (4) Examining (for databases) backup set with group_id=0, nonce=c9127e291400, datestamp=1715555145 (May 12 2024 23:05:45)
+1496.918 (4) This backup set is the backup set just made, so will not be deleted.
+1496.918 (4) Examining (for databases) backup set with group_id=0, nonce=e6b00ac65df0, datestamp=1715468829 (May 11 2024 23:07:09)
+1496.918 (4) 1715468829: db: this set includes a database (backup_2024-05-11-2307_Gardner_Conference_Center_e6b00ac65df0-db.gz); db count is now 1
+1496.918 (4) 1715468829: db: over retain limit (1); will delete this database
+1501.456 (4) Google Drive: backup_2024-05-11-2307_Gardner_Conference_Center_e6b00ac65df0-db.gz: Deletion successful
+1501.459 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+1501.460 (4) Number of backup sets in history: 2; groups (files): 1
+1501.460 (4) Examining (for files) backup set with nonce=c9127e291400, datestamp=1715555145 (May 12 2024 23:05:45)
+1501.461 (4) This backup set is the backup set just made, so will not be deleted.
+1501.461 (4) This backup set is the backup set just made, so will not be deleted.
+1501.461 (4) This backup set is the backup set just made, so will not be deleted.
+1501.461 (4) This backup set is the backup set just made, so will not be deleted.
+1501.461 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1501.462 (4) Examining (for files) backup set with nonce=e6b00ac65df0, datestamp=1715468829 (May 11 2024 23:07:09)
+1501.462 (4) plugins: over retain limit (1); will delete this file entity
+1501.462 (4) themes: over retain limit (1); will delete this file entity
+1501.462 (4) uploads: over retain limit (1); will delete this file entity
+1501.462 (4) others: over retain limit (1); will delete this file entity
+1503.893 (4) Google Drive: backup_2024-05-11-2307_Gardner_Conference_Center_e6b00ac65df0-uploads.zip: Deletion successful
+1506.275 (4) Google Drive: backup_2024-05-11-2307_Gardner_Conference_Center_e6b00ac65df0-others.zip: Deletion successful
+1507.688 (4) Google Drive: backup_2024-05-11-2307_Gardner_Conference_Center_e6b00ac65df0-uploads2.zip: Deletion successful
+1509.488 (4) Google Drive: backup_2024-05-11-2307_Gardner_Conference_Center_e6b00ac65df0-themes.zip: Deletion successful
+1511.573 (4) Google Drive: backup_2024-05-11-2307_Gardner_Conference_Center_e6b00ac65df0-plugins.zip: Deletion successful
+1511.576 (4) This backup set is now empty; will remove from history
+1511.577 (4) Deleting log file (log.e6b00ac65df0.txt)
+1511.579 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1511.582 (4) Resume backup (c9127e291400, 4): finish run
+1511.583 (4) [Info] Lock option (updraft_lock_c9127e291400, wp_options) released
+1511.584 (4) There were no errors in the uploads, so the 'resume' event (5) is being unscheduled
+1511.587 (4) Deleting zip manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-plugins.zip.list.tmp)
+1511.588 (4) Deleting zip manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-themes.zip.list.tmp)
+1511.588 (4) Deleting zip manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads.zip.list.tmp)
+1511.589 (4) Deleting zip manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-uploads2.zip.list.tmp)
+1511.590 (4) Deleting zip manifest (backup_2024-05-12-2305_Gardner_Conference_Center_c9127e291400-others.zip.list.tmp)
+1511.590 (4) No email will/can be sent - the user has not configured an email address.
+1511.591 (4) The backup succeeded and is now complete

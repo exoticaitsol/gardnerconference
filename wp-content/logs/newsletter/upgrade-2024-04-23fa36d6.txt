@@ -1,0 +1,38 @@
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 13.6 MB/2 GB - gardnerconference > Start upgrade from 0.0.0
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 14.0 MB/2 GB - gardnerconference > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 14.0 MB/2 GB - gardnerconference > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 14.0 MB/2 GB - gardnerconference > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 14.0 MB/2 GB - gardnerconference > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 14.0 MB/2 GB - gardnerconference > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 14.0 MB/2 GB - gardnerconference > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 14.0 MB/2 GB - gardnerconference > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+)
+
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 14.0 MB/2 GB - gardnerconference > Backing up options of 0.0.0
+16-04-2024 07:46:02 - INFO  - 8.3.0 - 14.0 MB/2 GB - gardnerconference > End
